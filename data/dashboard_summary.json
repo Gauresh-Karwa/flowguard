@@ -1,0 +1,185 @@
+{
+  "totalTransactions": 3316,
+  "fraudTransactions": 316,
+  "totalAmount": 77650247,
+  "fraudAmount": 9405985,
+  "uniqueAccounts": 200,
+  "totalCases": 51,
+  "fraudRate": 9.53,
+  "monthlyData": [
+    {
+      "month": "2024-01",
+      "count": 279,
+      "fraud_count": 22,
+      "total_amount": 6333325
+    },
+    {
+      "month": "2024-02",
+      "count": 212,
+      "fraud_count": 5,
+      "total_amount": 4932427
+    },
+    {
+      "month": "2024-03",
+      "count": 332,
+      "fraud_count": 53,
+      "total_amount": 8302535
+    },
+    {
+      "month": "2024-04",
+      "count": 243,
+      "fraud_count": 11,
+      "total_amount": 5705373
+    },
+    {
+      "month": "2024-05",
+      "count": 328,
+      "fraud_count": 56,
+      "total_amount": 7764020
+    },
+    {
+      "month": "2024-06",
+      "count": 274,
+      "fraud_count": 37,
+      "total_amount": 6182193
+    },
+    {
+      "month": "2024-07",
+      "count": 271,
+      "fraud_count": 17,
+      "total_amount": 6323671
+    },
+    {
+      "month": "2024-08",
+      "count": 261,
+      "fraud_count": 9,
+      "total_amount": 5968445
+    },
+    {
+      "month": "2024-09",
+      "count": 270,
+      "fraud_count": 18,
+      "total_amount": 6734636
+    },
+    {
+      "month": "2024-10",
+      "count": 321,
+      "fraud_count": 61,
+      "total_amount": 7688508
+    },
+    {
+      "month": "2024-11",
+      "count": 271,
+      "fraud_count": 27,
+      "total_amount": 6359642
+    },
+    {
+      "month": "2024-12",
+      "count": 254,
+      "fraud_count": 0,
+      "total_amount": 5355472
+    }
+  ],
+  "topRiskAccounts": [
+    {
+      "account_id": "ACC198246",
+      "score": 61,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC850800",
+      "score": 28,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC379946",
+      "score": 22,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC380746",
+      "score": 20,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC488162",
+      "score": 14,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC358607",
+      "score": 14,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC542666",
+      "score": 13,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC131244",
+      "score": 13,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC403445",
+      "score": 13,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC900581",
+      "score": 13,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC654816",
+      "score": 13,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC779514",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC322955",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC688508",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC766563",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC898975",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC813328",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC301629",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC733052",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC331148",
+      "score": 11,
+      "level": "HIGH"
+    }
+  ]
+}

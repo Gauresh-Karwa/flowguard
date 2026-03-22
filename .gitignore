@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+*.pyc
+.env
