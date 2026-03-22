@@ -8,7 +8,7 @@
       "ACC322955"
     ],
     "pattern": "ACC198246 \u2192 ACC488162 \u2192 ACC322955 \u2192 ACC198246",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 37897,
     "transaction_trail": [
@@ -32,7 +32,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin. ML confirmed anomaly."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC198246 \u2192 ACC488162 \u2192 ACC322955 \u2192 ACC198246). The total amount cycled was \u20b937,897 with an average hop value of \u20b912,632. The full cycle completed within -298.3 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 32.0%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering. Isolation Forest independently flagged abnormal behavioral metrics on these accounts."
   },
   {
     "case_id": "CASE_002",
@@ -43,7 +43,7 @@
       "ACC331148"
     ],
     "pattern": "ACC198246 \u2192 ACC321231 \u2192 ACC331148 \u2192 ACC198246",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 85687,
     "transaction_trail": [
@@ -67,7 +67,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin. ML confirmed anomaly."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC198246 \u2192 ACC321231 \u2192 ACC331148 \u2192 ACC198246). The total amount cycled was \u20b985,687 with an average hop value of \u20b928,562. The full cycle completed within -1711.0 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 22.7%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering. Isolation Forest independently flagged abnormal behavioral metrics on these accounts."
   },
   {
     "case_id": "CASE_003",
@@ -78,7 +78,7 @@
       "ACC403445"
     ],
     "pattern": "ACC198246 \u2192 ACC319684 \u2192 ACC403445 \u2192 ACC198246",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 55132,
     "transaction_trail": [
@@ -102,7 +102,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin. ML confirmed anomaly."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC198246 \u2192 ACC319684 \u2192 ACC403445 \u2192 ACC198246). The total amount cycled was \u20b955,132 with an average hop value of \u20b918,377. The full cycle completed within -6423.7 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 22.6%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering. Isolation Forest independently flagged abnormal behavioral metrics on these accounts."
   },
   {
     "case_id": "CASE_004",
@@ -137,7 +137,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin account."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC850800 \u2192 ACC172933 \u2192 ACC148050 \u2192 ACC850800). The total amount cycled was \u20b965,700 with an average hop value of \u20b921,900. The full cycle completed within 0.9 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 1.0%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering."
   },
   {
     "case_id": "CASE_005",
@@ -172,7 +172,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin account."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC850800 \u2192 ACC195325 \u2192 ACC865179 \u2192 ACC850800). The total amount cycled was \u20b969,171 with an average hop value of \u20b923,057. The full cycle completed within -2045.4 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 38.7%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering."
   },
   {
     "case_id": "CASE_006",
@@ -207,7 +207,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin account."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC850800 \u2192 ACC654816 \u2192 ACC379946 \u2192 ACC850800). The total amount cycled was \u20b974,358 with an average hop value of \u20b924,786. The full cycle completed within -1723.2 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 19.4%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering."
   },
   {
     "case_id": "CASE_007",
@@ -242,7 +242,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin account."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC850800 \u2192 ACC403445 \u2192 ACC857168 \u2192 ACC850800). The total amount cycled was \u20b994,743 with an average hop value of \u20b931,581. The full cycle completed within -2457.5 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 4.3%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering."
   },
   {
     "case_id": "CASE_008",
@@ -277,7 +277,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin. ML confirmed anomaly."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC850800 \u2192 ACC900581 \u2192 ACC131244 \u2192 ACC850800). The total amount cycled was \u20b959,733 with an average hop value of \u20b919,911. The full cycle completed within -2738.1 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 40.9%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering. Isolation Forest independently flagged abnormal behavioral metrics on these accounts."
   },
   {
     "case_id": "CASE_009",
@@ -312,7 +312,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin account."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC542666 \u2192 ACC910620 \u2192 ACC705397 \u2192 ACC542666). The total amount cycled was \u20b970,097 with an average hop value of \u20b923,365. The full cycle completed within -2735.3 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 38.3%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering."
   },
   {
     "case_id": "CASE_010",
@@ -347,7 +347,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Money returns to origin account."
+    "explanation": "A closed-loop fund transfer was detected across 3 accounts (ACC542666 \u2192 ACC898975 \u2192 ACC654816 \u2192 ACC542666). The total amount cycled was \u20b968,560 with an average hop value of \u20b922,853. The full cycle completed within -3958.0 hours, indicating deliberate velocity to obscure fund origin. Amount variance across hops was 13.3%, consistent with structured round-tripping used to simulate legitimate inter-party settlements while returning funds to the originating account. This pattern is a key indicator of placement and layering stages of money laundering."
   },
   {
     "case_id": "CASE_011",
@@ -359,7 +359,7 @@
       "ACC169403"
     ],
     "pattern": "ACC198246 \u2192 ACC380746 \u2192 ACC883300 \u2192 ACC169403",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 38578,
     "transaction_trail": [
@@ -383,7 +383,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b938,578. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_012",
@@ -395,7 +395,7 @@
       "ACC133326"
     ],
     "pattern": "ACC198246 \u2192 ACC380746 \u2192 ACC377746 \u2192 ACC133326",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 41729,
     "transaction_trail": [
@@ -419,7 +419,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b941,729. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_013",
@@ -431,7 +431,7 @@
       "ACC944151"
     ],
     "pattern": "ACC198246 \u2192 ACC380746 \u2192 ACC377746 \u2192 ACC944151",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 38924,
     "transaction_trail": [
@@ -455,7 +455,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b938,924. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_014",
@@ -467,7 +467,7 @@
       "ACC974628"
     ],
     "pattern": "ACC198246 \u2192 ACC380746 \u2192 ACC832052 \u2192 ACC974628",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 41745,
     "transaction_trail": [
@@ -491,7 +491,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b941,745. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_015",
@@ -503,7 +503,7 @@
       "ACC555884"
     ],
     "pattern": "ACC198246 \u2192 ACC380746 \u2192 ACC356702 \u2192 ACC555884",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 21058,
     "transaction_trail": [
@@ -527,7 +527,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b921,058. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_016",
@@ -539,7 +539,7 @@
       "ACC131244"
     ],
     "pattern": "ACC198246 \u2192 ACC379946 \u2192 ACC358607 \u2192 ACC131244",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 35374,
     "transaction_trail": [
@@ -563,7 +563,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b935,374. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_017",
@@ -575,7 +575,7 @@
       "ACC452944"
     ],
     "pattern": "ACC198246 \u2192 ACC379946 \u2192 ACC765822 \u2192 ACC452944",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 63082,
     "transaction_trail": [
@@ -599,7 +599,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b963,082. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_018",
@@ -611,7 +611,7 @@
       "ACC344098"
     ],
     "pattern": "ACC198246 \u2192 ACC379946 \u2192 ACC383060 \u2192 ACC344098",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 44645,
     "transaction_trail": [
@@ -635,7 +635,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b944,645. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_019",
@@ -647,7 +647,7 @@
       "ACC802729"
     ],
     "pattern": "ACC198246 \u2192 ACC379946 \u2192 ACC383060 \u2192 ACC802729",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 47969,
     "transaction_trail": [
@@ -671,7 +671,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b947,969. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_020",
@@ -683,7 +683,7 @@
       "ACC898975"
     ],
     "pattern": "ACC198246 \u2192 ACC488162 \u2192 ACC358607 \u2192 ACC898975",
-    "risk_score": 61,
+    "risk_score": 51,
     "ml_flag": 1,
     "total_amount": 53664,
     "transaction_trail": [
@@ -707,7 +707,7 @@
       }
     ],
     "recommendation": "escalate",
-    "explanation": "Rapid multi-hop transfers. ML confirmed anomaly."
+    "explanation": "Rapid sequential fund movement detected across 4 accounts in 3 hops. Total value transferred: \u20b953,664. Each account in the chain acts as a pass-through node \u2014 receiving funds and immediately forwarding them \u2014 a technique used to obscure the audit trail and distance funds from their illicit origin. The short inter-hop time windows suggest coordinated or automated transfers rather than independent financial decisions. This is consistent with the layering stage of money laundering, where funds are moved through multiple intermediaries to defeat transaction monitoring systems. ML anomaly detection corroborates abnormal transaction velocity for accounts in this chain."
   },
   {
     "case_id": "CASE_021",
@@ -721,7 +721,7 @@
     "total_amount": 233479,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=0 out=8 imbalance=infx. ML flagged."
+    "explanation": "Account ACC779514 exhibits classic mule account behavior: it collects from few and disperses to many. Fan-in: 0 incoming sources | Fan-out: 8 outgoing targets | Imbalance ratio: infx. Total funds handled: \u20b9233,479. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_022",
@@ -735,7 +735,7 @@
     "total_amount": 291934,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=0 out=9 imbalance=infx. ML flagged."
+    "explanation": "Account ACC688508 exhibits classic mule account behavior: it collects from few and disperses to many. Fan-in: 0 incoming sources | Fan-out: 9 outgoing targets | Imbalance ratio: infx. Total funds handled: \u20b9291,934. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_023",
@@ -749,7 +749,7 @@
     "total_amount": 318685,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=0 out=10 imbalance=infx. ML flagged."
+    "explanation": "Account ACC766563 exhibits classic mule account behavior: it collects from few and disperses to many. Fan-in: 0 incoming sources | Fan-out: 10 outgoing targets | Imbalance ratio: infx. Total funds handled: \u20b9318,685. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_024",
@@ -763,7 +763,7 @@
     "total_amount": 253942,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=0 out=8 imbalance=infx. ML flagged."
+    "explanation": "Account ACC813328 exhibits classic mule account behavior: it collects from few and disperses to many. Fan-in: 0 incoming sources | Fan-out: 8 outgoing targets | Imbalance ratio: infx. Total funds handled: \u20b9253,942. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_025",
@@ -777,7 +777,7 @@
     "total_amount": 255941,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=0 out=8 imbalance=infx. ML flagged."
+    "explanation": "Account ACC301629 exhibits classic mule account behavior: it collects from few and disperses to many. Fan-in: 0 incoming sources | Fan-out: 8 outgoing targets | Imbalance ratio: infx. Total funds handled: \u20b9255,941. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_026",
@@ -791,7 +791,7 @@
     "total_amount": 1002931,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=28 out=10 imbalance=2.8x. ML flagged."
+    "explanation": "Account ACC430776 exhibits classic mule account behavior: it receives from many and distributes to few. Fan-in: 28 incoming sources | Fan-out: 10 outgoing targets | Imbalance ratio: 2.8x. Total funds handled: \u20b91,002,931. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_027",
@@ -805,379 +805,10 @@
     "total_amount": 271590,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Intermediary: in=0 out=9 imbalance=infx. ML flagged."
+    "explanation": "Account ACC733052 exhibits classic mule account behavior: it collects from few and disperses to many. Fan-in: 0 incoming sources | Fan-out: 9 outgoing targets | Imbalance ratio: infx. Total funds handled: \u20b9271,590. Mule accounts are used as intermediary nodes in fraud networks to aggregate funds from multiple sources before dispersal, making it difficult to trace the original source or final destination of funds. The high connection imbalance is not consistent with normal personal or business banking behavior. Behavioral ML flagged this account as an outlier based on degree centrality and transaction velocity."
   },
   {
     "case_id": "CASE_028",
-    "type": "Structuring",
-    "accounts": [
-      "ACC452944"
-    ],
-    "pattern": "6 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 8,
-    "ml_flag": 0,
-    "total_amount": 293597,
-    "transaction_trail": [
-      {
-        "from": "ACC452944",
-        "to": "ACC712982",
-        "amount": 49523,
-        "timestamp": "2024-08-16 00:00:00"
-      },
-      {
-        "from": "ACC452944",
-        "to": "ACC759176",
-        "amount": 48530,
-        "timestamp": "2024-08-16 02:00:00"
-      },
-      {
-        "from": "ACC452944",
-        "to": "ACC379786",
-        "amount": 49305,
-        "timestamp": "2024-08-16 06:00:00"
-      },
-      {
-        "from": "ACC452944",
-        "to": "ACC498591",
-        "amount": 48489,
-        "timestamp": "2024-08-16 12:00:00"
-      },
-      {
-        "from": "ACC452944",
-        "to": "ACC214975",
-        "amount": 49592,
-        "timestamp": "2024-08-16 12:00:00"
-      },
-      {
-        "from": "ACC452944",
-        "to": "ACC340174",
-        "amount": 48158,
-        "timestamp": "2024-08-16 15:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 6 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_029",
-    "type": "Structuring",
-    "accounts": [
-      "ACC498591"
-    ],
-    "pattern": "5 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 247197,
-    "transaction_trail": [
-      {
-        "from": "ACC498591",
-        "to": "ACC391369",
-        "amount": 49655,
-        "timestamp": "2024-05-18 00:00:00"
-      },
-      {
-        "from": "ACC498591",
-        "to": "ACC265840",
-        "amount": 49691,
-        "timestamp": "2024-05-18 03:00:00"
-      },
-      {
-        "from": "ACC498591",
-        "to": "ACC169403",
-        "amount": 49744,
-        "timestamp": "2024-05-18 04:00:00"
-      },
-      {
-        "from": "ACC498591",
-        "to": "ACC216739",
-        "amount": 48571,
-        "timestamp": "2024-05-18 12:00:00"
-      },
-      {
-        "from": "ACC498591",
-        "to": "ACC407419",
-        "amount": 49536,
-        "timestamp": "2024-05-18 16:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 5 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_030",
-    "type": "Structuring",
-    "accounts": [
-      "ACC930555"
-    ],
-    "pattern": "4 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 196193,
-    "transaction_trail": [
-      {
-        "from": "ACC930555",
-        "to": "ACC632342",
-        "amount": 49369,
-        "timestamp": "2024-07-18 00:00:00"
-      },
-      {
-        "from": "ACC930555",
-        "to": "ACC319684",
-        "amount": 49274,
-        "timestamp": "2024-07-18 02:00:00"
-      },
-      {
-        "from": "ACC930555",
-        "to": "ACC802729",
-        "amount": 49212,
-        "timestamp": "2024-07-18 03:00:00"
-      },
-      {
-        "from": "ACC930555",
-        "to": "ACC440035",
-        "amount": 48338,
-        "timestamp": "2024-07-18 04:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 4 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_031",
-    "type": "Structuring",
-    "accounts": [
-      "ACC624902"
-    ],
-    "pattern": "5 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 243433,
-    "transaction_trail": [
-      {
-        "from": "ACC624902",
-        "to": "ACC112038",
-        "amount": 48784,
-        "timestamp": "2024-03-18 00:00:00"
-      },
-      {
-        "from": "ACC624902",
-        "to": "ACC759176",
-        "amount": 48438,
-        "timestamp": "2024-03-18 01:00:00"
-      },
-      {
-        "from": "ACC624902",
-        "to": "ACC182627",
-        "amount": 48834,
-        "timestamp": "2024-03-18 06:00:00"
-      },
-      {
-        "from": "ACC624902",
-        "to": "ACC748564",
-        "amount": 48954,
-        "timestamp": "2024-03-18 12:00:00"
-      },
-      {
-        "from": "ACC624902",
-        "to": "ACC322955",
-        "amount": 48423,
-        "timestamp": "2024-03-18 16:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 5 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_032",
-    "type": "Structuring",
-    "accounts": [
-      "ACC330283"
-    ],
-    "pattern": "3 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 147778,
-    "transaction_trail": [
-      {
-        "from": "ACC330283",
-        "to": "ACC430776",
-        "amount": 49036,
-        "timestamp": "2024-07-08 00:00:00"
-      },
-      {
-        "from": "ACC330283",
-        "to": "ACC498591",
-        "amount": 49003,
-        "timestamp": "2024-07-08 02:00:00"
-      },
-      {
-        "from": "ACC330283",
-        "to": "ACC883300",
-        "amount": 49739,
-        "timestamp": "2024-07-08 04:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 3 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_033",
-    "type": "Structuring",
-    "accounts": [
-      "ACC479580"
-    ],
-    "pattern": "4 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 196741,
-    "transaction_trail": [
-      {
-        "from": "ACC479580",
-        "to": "ACC571029",
-        "amount": 48638,
-        "timestamp": "2024-10-23 00:00:00"
-      },
-      {
-        "from": "ACC479580",
-        "to": "ACC905635",
-        "amount": 49464,
-        "timestamp": "2024-10-23 02:00:00"
-      },
-      {
-        "from": "ACC479580",
-        "to": "ACC857168",
-        "amount": 49212,
-        "timestamp": "2024-10-23 04:00:00"
-      },
-      {
-        "from": "ACC479580",
-        "to": "ACC765822",
-        "amount": 49427,
-        "timestamp": "2024-10-23 09:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 4 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_034",
-    "type": "Structuring",
-    "accounts": [
-      "ACC271339"
-    ],
-    "pattern": "6 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 294236,
-    "transaction_trail": [
-      {
-        "from": "ACC271339",
-        "to": "ACC322955",
-        "amount": 48931,
-        "timestamp": "2024-06-16 00:00:00"
-      },
-      {
-        "from": "ACC271339",
-        "to": "ACC379946",
-        "amount": 49709,
-        "timestamp": "2024-06-16 03:00:00"
-      },
-      {
-        "from": "ACC271339",
-        "to": "ACC910620",
-        "amount": 49558,
-        "timestamp": "2024-06-16 04:00:00"
-      },
-      {
-        "from": "ACC271339",
-        "to": "ACC230889",
-        "amount": 48039,
-        "timestamp": "2024-06-16 04:00:00"
-      },
-      {
-        "from": "ACC271339",
-        "to": "ACC969693",
-        "amount": 48459,
-        "timestamp": "2024-06-16 05:00:00"
-      },
-      {
-        "from": "ACC271339",
-        "to": "ACC974628",
-        "amount": 49540,
-        "timestamp": "2024-06-16 08:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 6 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_035",
-    "type": "Structuring",
-    "accounts": [
-      "ACC663054"
-    ],
-    "pattern": "3 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 148784,
-    "transaction_trail": [
-      {
-        "from": "ACC663054",
-        "to": "ACC308496",
-        "amount": 49543,
-        "timestamp": "2024-06-29 00:00:00"
-      },
-      {
-        "from": "ACC663054",
-        "to": "ACC850800",
-        "amount": 49530,
-        "timestamp": "2024-06-29 04:00:00"
-      },
-      {
-        "from": "ACC663054",
-        "to": "ACC377746",
-        "amount": 49711,
-        "timestamp": "2024-06-29 04:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 3 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_036",
-    "type": "Structuring",
-    "accounts": [
-      "ACC814825"
-    ],
-    "pattern": "3 transfers in \u20b945,000\u2013\u20b950,000 range",
-    "risk_score": 5,
-    "ml_flag": 0,
-    "total_amount": 145924,
-    "transaction_trail": [
-      {
-        "from": "ACC814825",
-        "to": "ACC195325",
-        "amount": 48258,
-        "timestamp": "2024-03-19 00:00:00"
-      },
-      {
-        "from": "ACC814825",
-        "to": "ACC983794",
-        "amount": 48234,
-        "timestamp": "2024-03-19 02:00:00"
-      },
-      {
-        "from": "ACC814825",
-        "to": "ACC555884",
-        "amount": 49432,
-        "timestamp": "2024-03-19 06:00:00"
-      }
-    ],
-    "recommendation": "freeze",
-    "explanation": "Structured 3 txns just below \u20b950,000 threshold."
-  },
-  {
-    "case_id": "CASE_037",
     "type": "Structuring",
     "accounts": [
       "ACC172933"
@@ -1225,238 +856,379 @@
       }
     ],
     "recommendation": "freeze",
-    "explanation": "Structured 6 txns just below \u20b950,000 threshold."
+    "explanation": "Account ACC172933 made 6 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9295,075 (average: \u20b949,179 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_029",
+    "type": "Structuring",
+    "accounts": [
+      "ACC624902"
+    ],
+    "pattern": "5 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 243433,
+    "transaction_trail": [
+      {
+        "from": "ACC624902",
+        "to": "ACC112038",
+        "amount": 48784,
+        "timestamp": "2024-03-18 00:00:00"
+      },
+      {
+        "from": "ACC624902",
+        "to": "ACC759176",
+        "amount": 48438,
+        "timestamp": "2024-03-18 01:00:00"
+      },
+      {
+        "from": "ACC624902",
+        "to": "ACC182627",
+        "amount": 48834,
+        "timestamp": "2024-03-18 06:00:00"
+      },
+      {
+        "from": "ACC624902",
+        "to": "ACC748564",
+        "amount": 48954,
+        "timestamp": "2024-03-18 12:00:00"
+      },
+      {
+        "from": "ACC624902",
+        "to": "ACC322955",
+        "amount": 48423,
+        "timestamp": "2024-03-18 16:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC624902 made 5 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9243,433 (average: \u20b948,686 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_030",
+    "type": "Structuring",
+    "accounts": [
+      "ACC479580"
+    ],
+    "pattern": "4 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 196741,
+    "transaction_trail": [
+      {
+        "from": "ACC479580",
+        "to": "ACC571029",
+        "amount": 48638,
+        "timestamp": "2024-10-23 00:00:00"
+      },
+      {
+        "from": "ACC479580",
+        "to": "ACC905635",
+        "amount": 49464,
+        "timestamp": "2024-10-23 02:00:00"
+      },
+      {
+        "from": "ACC479580",
+        "to": "ACC857168",
+        "amount": 49212,
+        "timestamp": "2024-10-23 04:00:00"
+      },
+      {
+        "from": "ACC479580",
+        "to": "ACC765822",
+        "amount": 49427,
+        "timestamp": "2024-10-23 09:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC479580 made 4 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9196,741 (average: \u20b949,185 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_031",
+    "type": "Structuring",
+    "accounts": [
+      "ACC663054"
+    ],
+    "pattern": "3 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 148784,
+    "transaction_trail": [
+      {
+        "from": "ACC663054",
+        "to": "ACC308496",
+        "amount": 49543,
+        "timestamp": "2024-06-29 00:00:00"
+      },
+      {
+        "from": "ACC663054",
+        "to": "ACC850800",
+        "amount": 49530,
+        "timestamp": "2024-06-29 04:00:00"
+      },
+      {
+        "from": "ACC663054",
+        "to": "ACC377746",
+        "amount": 49711,
+        "timestamp": "2024-06-29 04:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC663054 made 3 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9148,784 (average: \u20b949,594 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_032",
+    "type": "Structuring",
+    "accounts": [
+      "ACC452944"
+    ],
+    "pattern": "6 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 8,
+    "ml_flag": 0,
+    "total_amount": 293597,
+    "transaction_trail": [
+      {
+        "from": "ACC452944",
+        "to": "ACC712982",
+        "amount": 49523,
+        "timestamp": "2024-08-16 00:00:00"
+      },
+      {
+        "from": "ACC452944",
+        "to": "ACC759176",
+        "amount": 48530,
+        "timestamp": "2024-08-16 02:00:00"
+      },
+      {
+        "from": "ACC452944",
+        "to": "ACC379786",
+        "amount": 49305,
+        "timestamp": "2024-08-16 06:00:00"
+      },
+      {
+        "from": "ACC452944",
+        "to": "ACC498591",
+        "amount": 48489,
+        "timestamp": "2024-08-16 12:00:00"
+      },
+      {
+        "from": "ACC452944",
+        "to": "ACC214975",
+        "amount": 49592,
+        "timestamp": "2024-08-16 12:00:00"
+      },
+      {
+        "from": "ACC452944",
+        "to": "ACC340174",
+        "amount": 48158,
+        "timestamp": "2024-08-16 15:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC452944 made 6 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9293,597 (average: \u20b948,932 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_033",
+    "type": "Structuring",
+    "accounts": [
+      "ACC930555"
+    ],
+    "pattern": "4 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 196193,
+    "transaction_trail": [
+      {
+        "from": "ACC930555",
+        "to": "ACC632342",
+        "amount": 49369,
+        "timestamp": "2024-07-18 00:00:00"
+      },
+      {
+        "from": "ACC930555",
+        "to": "ACC319684",
+        "amount": 49274,
+        "timestamp": "2024-07-18 02:00:00"
+      },
+      {
+        "from": "ACC930555",
+        "to": "ACC802729",
+        "amount": 49212,
+        "timestamp": "2024-07-18 03:00:00"
+      },
+      {
+        "from": "ACC930555",
+        "to": "ACC440035",
+        "amount": 48338,
+        "timestamp": "2024-07-18 04:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC930555 made 4 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9196,193 (average: \u20b949,048 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_034",
+    "type": "Structuring",
+    "accounts": [
+      "ACC330283"
+    ],
+    "pattern": "3 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 147778,
+    "transaction_trail": [
+      {
+        "from": "ACC330283",
+        "to": "ACC430776",
+        "amount": 49036,
+        "timestamp": "2024-07-08 00:00:00"
+      },
+      {
+        "from": "ACC330283",
+        "to": "ACC498591",
+        "amount": 49003,
+        "timestamp": "2024-07-08 02:00:00"
+      },
+      {
+        "from": "ACC330283",
+        "to": "ACC883300",
+        "amount": 49739,
+        "timestamp": "2024-07-08 04:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC330283 made 3 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9147,778 (average: \u20b949,259 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_035",
+    "type": "Structuring",
+    "accounts": [
+      "ACC271339"
+    ],
+    "pattern": "6 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 294236,
+    "transaction_trail": [
+      {
+        "from": "ACC271339",
+        "to": "ACC322955",
+        "amount": 48931,
+        "timestamp": "2024-06-16 00:00:00"
+      },
+      {
+        "from": "ACC271339",
+        "to": "ACC379946",
+        "amount": 49709,
+        "timestamp": "2024-06-16 03:00:00"
+      },
+      {
+        "from": "ACC271339",
+        "to": "ACC910620",
+        "amount": 49558,
+        "timestamp": "2024-06-16 04:00:00"
+      },
+      {
+        "from": "ACC271339",
+        "to": "ACC230889",
+        "amount": 48039,
+        "timestamp": "2024-06-16 04:00:00"
+      },
+      {
+        "from": "ACC271339",
+        "to": "ACC969693",
+        "amount": 48459,
+        "timestamp": "2024-06-16 05:00:00"
+      },
+      {
+        "from": "ACC271339",
+        "to": "ACC974628",
+        "amount": 49540,
+        "timestamp": "2024-06-16 08:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC271339 made 6 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9294,236 (average: \u20b949,039 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_036",
+    "type": "Structuring",
+    "accounts": [
+      "ACC498591"
+    ],
+    "pattern": "5 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 247197,
+    "transaction_trail": [
+      {
+        "from": "ACC498591",
+        "to": "ACC391369",
+        "amount": 49655,
+        "timestamp": "2024-05-18 00:00:00"
+      },
+      {
+        "from": "ACC498591",
+        "to": "ACC265840",
+        "amount": 49691,
+        "timestamp": "2024-05-18 03:00:00"
+      },
+      {
+        "from": "ACC498591",
+        "to": "ACC169403",
+        "amount": 49744,
+        "timestamp": "2024-05-18 04:00:00"
+      },
+      {
+        "from": "ACC498591",
+        "to": "ACC216739",
+        "amount": 48571,
+        "timestamp": "2024-05-18 12:00:00"
+      },
+      {
+        "from": "ACC498591",
+        "to": "ACC407419",
+        "amount": 49536,
+        "timestamp": "2024-05-18 16:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC498591 made 5 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9247,197 (average: \u20b949,439 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
+  },
+  {
+    "case_id": "CASE_037",
+    "type": "Structuring",
+    "accounts": [
+      "ACC814825"
+    ],
+    "pattern": "3 transfers in \u20b945,000\u2013\u20b950,000 range",
+    "risk_score": 5,
+    "ml_flag": 0,
+    "total_amount": 145924,
+    "transaction_trail": [
+      {
+        "from": "ACC814825",
+        "to": "ACC195325",
+        "amount": 48258,
+        "timestamp": "2024-03-19 00:00:00"
+      },
+      {
+        "from": "ACC814825",
+        "to": "ACC983794",
+        "amount": 48234,
+        "timestamp": "2024-03-19 02:00:00"
+      },
+      {
+        "from": "ACC814825",
+        "to": "ACC555884",
+        "amount": 49432,
+        "timestamp": "2024-03-19 06:00:00"
+      }
+    ],
+    "recommendation": "freeze",
+    "explanation": "Account ACC814825 made 3 transfers each valued between \u20b945,000 and \u20b950,000 within a 24-hour window, totalling \u20b9145,924 (average: \u20b948,641 per transfer). This is a textbook structuring pattern \u2014 deliberately splitting transactions to remain below the \u20b950,000 mandatory reporting threshold set by RBI guidelines. Each transfer individually appears unremarkable; the pattern only emerges when analyzed in aggregate. This technique, also known as smurfing, is used in the placement stage to introduce illicit funds into the financial system without triggering automated compliance alerts."
   },
   {
     "case_id": "CASE_038",
-    "type": "Flow Conservation",
-    "accounts": [
-      "ACC671858",
-      "ACC802729",
-      "ACC814825",
-      "ACC148050",
-      "ACC133326",
-      "ACC211579",
-      "ACC452944",
-      "ACC265840",
-      "ACC724834",
-      "ACC905635",
-      "ACC725380",
-      "ACC246316",
-      "ACC634277",
-      "ACC898975",
-      "ACC403445",
-      "ACC476417",
-      "ACC456699",
-      "ACC946335",
-      "ACC497887",
-      "ACC629903",
-      "ACC892495",
-      "ACC581741",
-      "ACC854639",
-      "ACC498591",
-      "ACC133659",
-      "ACC832052",
-      "ACC500156",
-      "ACC325772",
-      "ACC770487",
-      "ACC407419",
-      "ACC340174"
-    ],
-    "pattern": "Community 11 \u2014 in=\u20b910,566,621 out=\u20b910,719,535 ratio=0.986",
-    "risk_score": 13,
-    "ml_flag": 1,
-    "total_amount": 21286156,
-    "transaction_trail": [],
-    "recommendation": "escalate",
-    "explanation": "Coordinated ring: 31 accounts with 99% flow conservation. Money in \u2248 money out = deliberate laundering structure."
-  },
-  {
-    "case_id": "CASE_039",
-    "type": "Flow Conservation",
-    "accounts": [
-      "ACC779514",
-      "ACC738720",
-      "ACC145561",
-      "ACC329974",
-      "ACC748564",
-      "ACC680099",
-      "ACC772097",
-      "ACC543143",
-      "ACC671412",
-      "ACC694731",
-      "ACC575763",
-      "ACC624902",
-      "ACC127824",
-      "ACC705397",
-      "ACC663054",
-      "ACC287330",
-      "ACC813536",
-      "ACC338968",
-      "ACC719176",
-      "ACC169403",
-      "ACC379786",
-      "ACC520651",
-      "ACC930555",
-      "ACC174870",
-      "ACC214975",
-      "ACC270555",
-      "ACC712982",
-      "ACC883300"
-    ],
-    "pattern": "Community 5 \u2014 in=\u20b99,583,719 out=\u20b99,893,992 ratio=0.969",
-    "risk_score": 11,
-    "ml_flag": 1,
-    "total_amount": 19477711,
-    "transaction_trail": [],
-    "recommendation": "escalate",
-    "explanation": "Coordinated ring: 28 accounts with 97% flow conservation. Money in \u2248 money out = deliberate laundering structure."
-  },
-  {
-    "case_id": "CASE_040",
-    "type": "Flow Conservation",
-    "accounts": [
-      "ACC158655",
-      "ACC271339",
-      "ACC518801",
-      "ACC197251",
-      "ACC865179",
-      "ACC216739",
-      "ACC974628",
-      "ACC766563",
-      "ACC376183",
-      "ACC900581",
-      "ACC632342",
-      "ACC895667",
-      "ACC112038",
-      "ACC267753",
-      "ACC684004",
-      "ACC864544",
-      "ACC220116",
-      "ACC207175",
-      "ACC319684",
-      "ACC944151"
-    ],
-    "pattern": "Community 10 \u2014 in=\u20b97,669,777 out=\u20b98,052,005 ratio=0.953",
-    "risk_score": 13,
-    "ml_flag": 1,
-    "total_amount": 15721782,
-    "transaction_trail": [],
-    "recommendation": "escalate",
-    "explanation": "Coordinated ring: 20 accounts with 95% flow conservation. Money in \u2248 money out = deliberate laundering structure."
-  },
-  {
-    "case_id": "CASE_041",
-    "type": "Flow Conservation",
-    "accounts": [
-      "ACC198246",
-      "ACC555884",
-      "ACC542417",
-      "ACC379946",
-      "ACC131244",
-      "ACC407757",
-      "ACC816751",
-      "ACC765822",
-      "ACC571029",
-      "ACC322955",
-      "ACC488162",
-      "ACC356702",
-      "ACC358607",
-      "ACC813328",
-      "ACC380746",
-      "ACC913694",
-      "ACC343962",
-      "ACC759176",
-      "ACC482554",
-      "ACC430776",
-      "ACC331148",
-      "ACC308496",
-      "ACC969693",
-      "ACC391369",
-      "ACC391476",
-      "ACC377746",
-      "ACC321231",
-      "ACC363626"
-    ],
-    "pattern": "Community 0 \u2014 in=\u20b99,887,946 out=\u20b99,126,271 ratio=0.923",
-    "risk_score": 61,
-    "ml_flag": 1,
-    "total_amount": 19014217,
-    "transaction_trail": [],
-    "recommendation": "escalate",
-    "explanation": "Coordinated ring: 28 accounts with 92% flow conservation. Money in \u2248 money out = deliberate laundering structure."
-  },
-  {
-    "case_id": "CASE_042",
-    "type": "Flow Conservation",
-    "accounts": [
-      "ACC542666",
-      "ACC344098",
-      "ACC375504",
-      "ACC590785",
-      "ACC207473",
-      "ACC731262",
-      "ACC881177",
-      "ACC195325",
-      "ACC429963",
-      "ACC230889",
-      "ACC249811",
-      "ACC126225",
-      "ACC877572",
-      "ACC263032",
-      "ACC301629",
-      "ACC584714",
-      "ACC575435",
-      "ACC246413",
-      "ACC876646",
-      "ACC835392",
-      "ACC910620",
-      "ACC617488",
-      "ACC774079",
-      "ACC182627"
-    ],
-    "pattern": "Community 3 \u2014 in=\u20b98,630,116 out=\u20b97,906,230 ratio=0.916",
-    "risk_score": 13,
-    "ml_flag": 1,
-    "total_amount": 16536346,
-    "transaction_trail": [],
-    "recommendation": "escalate",
-    "explanation": "Coordinated ring: 24 accounts with 92% flow conservation. Money in \u2248 money out = deliberate laundering structure."
-  },
-  {
-    "case_id": "CASE_043",
-    "type": "Flow Conservation",
-    "accounts": [
-      "ACC850800",
-      "ACC793384",
-      "ACC172933",
-      "ACC330283",
-      "ACC334053",
-      "ACC245051",
-      "ACC688508",
-      "ACC581141",
-      "ACC623481",
-      "ACC983794",
-      "ACC514850",
-      "ACC857168",
-      "ACC383060",
-      "ACC733052",
-      "ACC479580",
-      "ACC191161",
-      "ACC440035",
-      "ACC654816",
-      "ACC887352"
-    ],
-    "pattern": "Community 1 \u2014 in=\u20b96,698,363 out=\u20b97,338,509 ratio=0.913",
-    "risk_score": 28,
-    "ml_flag": 1,
-    "total_amount": 14036872,
-    "transaction_trail": [],
-    "recommendation": "escalate",
-    "explanation": "Coordinated ring: 19 accounts with 91% flow conservation. Money in \u2248 money out = deliberate laundering structure."
-  },
-  {
-    "case_id": "CASE_044",
     "type": "Dormant Activation",
     "accounts": [
       "ACC766563"
@@ -1467,10 +1239,10 @@
     "total_amount": 318685,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 10 txns totalling \u20b9318,685. ML flagged."
+    "explanation": "Account ACC766563 had no recorded activity prior to the detection window and then suddenly executed 10 transactions totalling \u20b9318,685. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_045",
+    "case_id": "CASE_039",
     "type": "Dormant Activation",
     "accounts": [
       "ACC688508"
@@ -1481,10 +1253,10 @@
     "total_amount": 291934,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 9 txns totalling \u20b9291,934. ML flagged."
+    "explanation": "Account ACC688508 had no recorded activity prior to the detection window and then suddenly executed 9 transactions totalling \u20b9291,934. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_046",
+    "case_id": "CASE_040",
     "type": "Dormant Activation",
     "accounts": [
       "ACC733052"
@@ -1495,10 +1267,10 @@
     "total_amount": 271590,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 9 txns totalling \u20b9271,590. ML flagged."
+    "explanation": "Account ACC733052 had no recorded activity prior to the detection window and then suddenly executed 9 transactions totalling \u20b9271,590. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_047",
+    "case_id": "CASE_041",
     "type": "Dormant Activation",
     "accounts": [
       "ACC301629"
@@ -1509,10 +1281,10 @@
     "total_amount": 255941,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 8 txns totalling \u20b9255,941. ML flagged."
+    "explanation": "Account ACC301629 had no recorded activity prior to the detection window and then suddenly executed 8 transactions totalling \u20b9255,941. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_048",
+    "case_id": "CASE_042",
     "type": "Dormant Activation",
     "accounts": [
       "ACC813328"
@@ -1523,10 +1295,10 @@
     "total_amount": 253942,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 8 txns totalling \u20b9253,942. ML flagged."
+    "explanation": "Account ACC813328 had no recorded activity prior to the detection window and then suddenly executed 8 transactions totalling \u20b9253,942. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_049",
+    "case_id": "CASE_043",
     "type": "Dormant Activation",
     "accounts": [
       "ACC779514"
@@ -1537,10 +1309,10 @@
     "total_amount": 233479,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 8 txns totalling \u20b9233,479. ML flagged."
+    "explanation": "Account ACC779514 had no recorded activity prior to the detection window and then suddenly executed 8 transactions totalling \u20b9233,479. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_050",
+    "case_id": "CASE_044",
     "type": "Dormant Activation",
     "accounts": [
       "ACC581141"
@@ -1551,10 +1323,10 @@
     "total_amount": 178086,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 6 txns totalling \u20b9178,086. ML flagged."
+    "explanation": "Account ACC581141 had no recorded activity prior to the detection window and then suddenly executed 6 transactions totalling \u20b9178,086. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
   },
   {
-    "case_id": "CASE_051",
+    "case_id": "CASE_045",
     "type": "Dormant Activation",
     "accounts": [
       "ACC581741"
@@ -1565,6 +1337,247 @@
     "total_amount": 165570,
     "transaction_trail": [],
     "recommendation": "escalate",
-    "explanation": "Dormant, then 5 txns totalling \u20b9165,570. ML flagged."
+    "explanation": "Account ACC581741 had no recorded activity prior to the detection window and then suddenly executed 5 transactions totalling \u20b9165,570. Dormant accounts reactivated with high-value bursts are commonly used as pre-positioned vehicles in money laundering operations \u2014 established well in advance to appear aged and legitimate before being activated for a specific operation. The absence of a warm-up period (no small test transactions) and the immediate high-value activity strongly suggests coordinated use rather than organic reactivation. Isolation Forest confirmed this activation as a statistical anomaly relative to all accounts."
+  },
+  {
+    "case_id": "CASE_046",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC779514",
+      "ACC145561",
+      "ACC329974",
+      "ACC748564",
+      "ACC330283",
+      "ACC731262",
+      "ACC322955",
+      "ACC865179",
+      "ACC623481",
+      "ACC356702",
+      "ACC376183",
+      "ACC876646",
+      "ACC910620",
+      "ACC617488",
+      "ACC500156",
+      "ACC174870",
+      "ACC270555",
+      "ACC363626",
+      "ACC712982"
+    ],
+    "pattern": "Community 4 \u2014 in=\u20b97,073,684 out=\u20b97,181,776 ratio=0.985",
+    "risk_score": 11,
+    "ml_flag": 1,
+    "total_amount": 14255460,
+    "transaction_trail": [],
+    "recommendation": "escalate",
+    "explanation": "Community 4 consisting of 19 accounts shows a fund flow conservation ratio of 98% \u2014 meaning \u20b97,073,684 entered the cluster and \u20b97,181,776 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction. ML anomaly detection flagged multiple accounts within this community."
+  },
+  {
+    "case_id": "CASE_047",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC198246",
+      "ACC671858",
+      "ACC738720",
+      "ACC271339",
+      "ACC518801",
+      "ACC334053",
+      "ACC245051",
+      "ACC766563",
+      "ACC881177",
+      "ACC983794",
+      "ACC898975",
+      "ACC403445",
+      "ACC632342",
+      "ACC380746",
+      "ACC249811",
+      "ACC456699",
+      "ACC857168",
+      "ACC112038",
+      "ACC854639",
+      "ACC832052",
+      "ACC391476",
+      "ACC770487"
+    ],
+    "pattern": "Community 0 \u2014 in=\u20b97,974,702 out=\u20b98,167,007 ratio=0.976",
+    "risk_score": 51,
+    "ml_flag": 1,
+    "total_amount": 16141709,
+    "transaction_trail": [],
+    "recommendation": "escalate",
+    "explanation": "Community 0 consisting of 22 accounts shows a fund flow conservation ratio of 98% \u2014 meaning \u20b97,974,702 entered the cluster and \u20b98,167,007 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction. ML anomaly detection flagged multiple accounts within this community."
+  },
+  {
+    "case_id": "CASE_048",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC172933",
+      "ACC680099",
+      "ACC265840",
+      "ACC724834",
+      "ACC725380",
+      "ACC694731",
+      "ACC575763",
+      "ACC900581",
+      "ACC913694",
+      "ACC383060",
+      "ACC430776",
+      "ACC267753",
+      "ACC969693",
+      "ACC287330",
+      "ACC191161",
+      "ACC719176",
+      "ACC440035",
+      "ACC377746",
+      "ACC930555",
+      "ACC321231",
+      "ACC214975",
+      "ACC944151",
+      "ACC182627"
+    ],
+    "pattern": "Community 14 \u2014 in=\u20b99,095,775 out=\u20b98,609,805 ratio=0.947",
+    "risk_score": 13,
+    "ml_flag": 1,
+    "total_amount": 17705580,
+    "transaction_trail": [],
+    "recommendation": "escalate",
+    "explanation": "Community 14 consisting of 23 accounts shows a fund flow conservation ratio of 95% \u2014 meaning \u20b99,095,775 entered the cluster and \u20b98,609,805 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction. ML anomaly detection flagged multiple accounts within this community."
+  },
+  {
+    "case_id": "CASE_049",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC344098",
+      "ACC814825",
+      "ACC375504",
+      "ACC379946",
+      "ACC793384",
+      "ACC131244",
+      "ACC407757",
+      "ACC207473",
+      "ACC816751",
+      "ACC765822",
+      "ACC211579",
+      "ACC197251",
+      "ACC772097",
+      "ACC581141",
+      "ACC358607",
+      "ACC230889",
+      "ACC877572",
+      "ACC497887",
+      "ACC331148",
+      "ACC581741",
+      "ACC169403",
+      "ACC835392",
+      "ACC391369",
+      "ACC325772",
+      "ACC774079",
+      "ACC340174"
+    ],
+    "pattern": "Community 11 \u2014 in=\u20b98,923,283 out=\u20b98,309,821 ratio=0.931",
+    "risk_score": 20,
+    "ml_flag": 1,
+    "total_amount": 17233104,
+    "transaction_trail": [],
+    "recommendation": "escalate",
+    "explanation": "Community 11 consisting of 26 accounts shows a fund flow conservation ratio of 93% \u2014 meaning \u20b98,923,283 entered the cluster and \u20b98,309,821 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction. ML anomaly detection flagged multiple accounts within this community."
+  },
+  {
+    "case_id": "CASE_050",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC542666",
+      "ACC158655",
+      "ACC590785",
+      "ACC452944",
+      "ACC905635",
+      "ACC688508",
+      "ACC216739",
+      "ACC974628",
+      "ACC246316",
+      "ACC514850",
+      "ACC429963",
+      "ACC813328",
+      "ACC476417",
+      "ACC343962",
+      "ACC895667",
+      "ACC263032",
+      "ACC301629",
+      "ACC759176",
+      "ACC482554",
+      "ACC575435",
+      "ACC629903",
+      "ACC684004",
+      "ACC207175",
+      "ACC379786",
+      "ACC883300"
+    ],
+    "pattern": "Community 3 \u2014 in=\u20b98,364,491 out=\u20b99,149,236 ratio=0.914",
+    "risk_score": 13,
+    "ml_flag": 1,
+    "total_amount": 17513727,
+    "transaction_trail": [],
+    "recommendation": "escalate",
+    "explanation": "Community 3 consisting of 25 accounts shows a fund flow conservation ratio of 91% \u2014 meaning \u20b98,364,491 entered the cluster and \u20b99,149,236 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction. ML anomaly detection flagged multiple accounts within this community."
+  },
+  {
+    "case_id": "CASE_051",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC555884",
+      "ACC542417",
+      "ACC148050",
+      "ACC133326",
+      "ACC543143",
+      "ACC634277",
+      "ACC624902",
+      "ACC127824",
+      "ACC126225",
+      "ACC584714",
+      "ACC892495",
+      "ACC308496",
+      "ACC663054",
+      "ACC813536",
+      "ACC338968",
+      "ACC864544",
+      "ACC220116",
+      "ACC498591",
+      "ACC133659",
+      "ACC520651",
+      "ACC319684",
+      "ACC407419"
+    ],
+    "pattern": "Community 10 \u2014 in=\u20b97,553,721 out=\u20b98,952,737 ratio=0.844",
+    "risk_score": 8,
+    "ml_flag": 0,
+    "total_amount": 16506458,
+    "transaction_trail": [],
+    "recommendation": "freeze",
+    "explanation": "Community 10 consisting of 22 accounts shows a fund flow conservation ratio of 84% \u2014 meaning \u20b97,553,721 entered the cluster and \u20b98,952,737 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction."
+  },
+  {
+    "case_id": "CASE_052",
+    "type": "Flow Conservation",
+    "accounts": [
+      "ACC850800",
+      "ACC802729",
+      "ACC571029",
+      "ACC671412",
+      "ACC488162",
+      "ACC195325",
+      "ACC946335",
+      "ACC705397",
+      "ACC246413",
+      "ACC733052",
+      "ACC479580",
+      "ACC654816",
+      "ACC887352"
+    ],
+    "pattern": "Community 1 \u2014 in=\u20b95,648,054 out=\u20b94,263,328 ratio=0.755",
+    "risk_score": 28,
+    "ml_flag": 1,
+    "total_amount": 9911382,
+    "transaction_trail": [],
+    "recommendation": "escalate",
+    "explanation": "Community 1 consisting of 13 accounts shows a fund flow conservation ratio of 76% \u2014 meaning \u20b95,648,054 entered the cluster and \u20b94,263,328 exited within the observation window. In legitimate financial networks, money flows directionally toward goods, services, or investments. Near-perfect conservation of funds across a closed group of accounts indicates coordinated movement with no underlying economic purpose \u2014 a strong signal of a managed fraud network where funds are being cycled, staged, or temporarily parked before final extraction. ML anomaly detection flagged multiple accounts within this community."
   }
 ]
