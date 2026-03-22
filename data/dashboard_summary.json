@@ -4,7 +4,7 @@
   "totalAmount": 77650247,
   "fraudAmount": 9405985,
   "uniqueAccounts": 200,
-  "totalCases": 51,
+  "totalCases": 52,
   "fraudRate": 9.53,
   "monthlyData": [
     {
@@ -83,7 +83,7 @@
   "topRiskAccounts": [
     {
       "account_id": "ACC198246",
-      "score": 61,
+      "score": 51,
       "level": "HIGH"
     },
     {
@@ -93,31 +93,16 @@
     },
     {
       "account_id": "ACC379946",
-      "score": 22,
-      "level": "HIGH"
-    },
-    {
-      "account_id": "ACC380746",
       "score": 20,
       "level": "HIGH"
     },
     {
-      "account_id": "ACC488162",
-      "score": 14,
-      "level": "HIGH"
-    },
-    {
-      "account_id": "ACC358607",
-      "score": 14,
+      "account_id": "ACC380746",
+      "score": 18,
       "level": "HIGH"
     },
     {
       "account_id": "ACC542666",
-      "score": 13,
-      "level": "HIGH"
-    },
-    {
-      "account_id": "ACC131244",
       "score": 13,
       "level": "HIGH"
     },
@@ -137,12 +122,17 @@
       "level": "HIGH"
     },
     {
+      "account_id": "ACC358607",
+      "score": 12,
+      "level": "HIGH"
+    },
+    {
       "account_id": "ACC779514",
       "score": 11,
       "level": "HIGH"
     },
     {
-      "account_id": "ACC322955",
+      "account_id": "ACC131244",
       "score": 11,
       "level": "HIGH"
     },
@@ -153,6 +143,11 @@
     },
     {
       "account_id": "ACC766563",
+      "score": 11,
+      "level": "HIGH"
+    },
+    {
+      "account_id": "ACC488162",
       "score": 11,
       "level": "HIGH"
     },
@@ -177,9 +172,14 @@
       "level": "HIGH"
     },
     {
-      "account_id": "ACC331148",
-      "score": 11,
+      "account_id": "ACC172933",
+      "score": 10,
       "level": "HIGH"
+    },
+    {
+      "account_id": "ACC383060",
+      "score": 9,
+      "level": "MEDIUM"
     }
   ]
 }
